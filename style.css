@@ -129,7 +129,7 @@ input, button{
   margin: 0 10px;
 }
 
-.task-list-item > label {
+.task-list-item > .task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -140,13 +140,13 @@ input, button{
   width: 226px;
 }
 
-.task-list-button.delete img {
+.delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.task-list-button.delete img:hover {
+.delete-img:hover {
   transform: rotateZ(0);
 }
 
